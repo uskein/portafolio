@@ -10,14 +10,27 @@
 > Interface ready.
 
 ============================================
-> PROJECT OVERVIEW
+> ID.EXE · Identity Card
 ============================================
 
-This is the personal portfolio of **USKEIN**, a Full-Stack Developer focused on building high-performance applications, desktop software, and scalable cloud architectures.
+| Campo | Valor |
+|---|---|
+| 👤 Nombre | Juan Sebastián Patiño Rodríguez |
+| 🪪 Usuario | `uskein` |
+| 📍 Ubicación | Colombia |
+| 🎯 Rol | Full-Stack Developer |
+| 🧠 Enfoque | Microservicios · Backend escalable · Apps híbridas |
 
-Built with modern web technologies and styled with a retro-future aesthetic.
+============================================
+> TECH_GRID · Stack Tecnológico
+============================================
 
-Tech Stack: React | TypeScript | Vite | Tailwind | Framer Motion | GSAP
+[Backend]      .NET / C# / ASP.NET Core / REST APIs
+[Architecture] Microservicios / Ocelot Gateway / RabbitMQ
+[Data]         SQL Server / PostgreSQL / Entity Framework
+[Frontend]     React / Angular / TypeScript
+[Desktop]      Tauri / Rust / SQLite
+[DevOps]       Docker / Git / IIS / Azure DevOps
 
 ============================================
 > CORE MODULES (PROJECTS)
@@ -37,16 +50,6 @@ Tech Stack: React | TypeScript | Vite | Tailwind | Framer Motion | GSAP
    - Status: COMPLETED
    - Stack: React + Express + PostgreSQL + Docker
    - Features: World Building (Bestiary, Characters, Geography), Manuscript Management, Semantic Search, Kanban Board.
-
-============================================
-> SKILL STATS (LEVEL UP!)
-============================================
-
-[Backend]      ██████████ 9/10 .NET/C# / ASP.NET Core
-[Frontend]     ████████░░ 8/10 React / TypeScript
-[DevOps]       ███████░░░ 7/10 Docker / Kubernetes / CI-CD
-[Database]     ████████░░ 8/10 PostgreSQL / SQL Server
-[Tools]        ██████░░░░ 6/10 Rust / Tauri
 
 ============================================
 > INSTALLATION SEQUENCE
