@@ -1,107 +1,225 @@
-############################################
-#    USKEIN // PHANTOM THIEF PORTFOLIO     #
-#    STATUS: OPERATIONAL                   #
-#    VERSION: 2.0.0                        #
-############################################
+<div align="center">
 
-[!] **SYSTEM BOOT SEQUENCE INITIATED...**
-> Bypassing firewalls... [OK]
-> Loading core modules... [OK]
-> Interface ready.
+```
+██╗   ██╗██╗  ██╗ █████╗ ███████╗██╗  ██╗██████╗  ██████╗  █████╗ ██████╗ ██████╗
+██║   ██║██║  ██║██╔══██╗██╔════╝██║  ██║██╔══██╗██╔═══██╗██╔══██╗██╔══██╗██╔══██╗
+██║   ██║███████║███████║███████╗███████║██████╔╝██║   ██║███████║██████╔╝██║  ██║
+╚██╗ ██╔╝██╔══██║██╔══██║╚════██║██╔══██║██╔══██╗██║   ██║██╔══██║██╔══██╗██║  ██║
+ ╚████╔╝ ██║  ██║██║  ██║███████║██║  ██║██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝
+  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝
+```
 
-============================================
-> ID.EXE · Identity Card
-============================================
+![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-brightgreen?style=for-the-badge)
+![Version](https://img.shields.io/badge/VERSION-2.0.0-blue?style=for-the-badge)
+![Pokemon](https://img.shields.io/badge/POKEMON-8--BIT-FF0000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVIN0wxMiAyeiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==)
+
+**Full-Stack Developer | Microservices Architect | Hybrid Apps Specialist**
+
+[![GitHub](https://img.shields.io/badge/GitHub-uskein-181717?style=flat&logo=github)](https://github.com/uskein)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-juanse07-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/juanse07/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-uskein.dev-FF6B35?style=flat&logo=vercel)](https://uskein.dev)
+
+</div>
+
+---
+
+## 📡 **SYSTEM BOOT SEQUENCE**
+
+```
+[✓] Bypassing firewalls.................. OK
+[✓] Loading core modules................. OK
+[✓] Initializing Pokeball System......... OK
+[✓] Loading 8-bit interface.............. OK
+[✓] Interface ready.
+```
+
+---
+
+## 🪪 **IDENTITY CARD**
+
+<div align="center">
 
 | Campo | Valor |
-|---|---|
-| Nombre | Juan Sebastian Patino Rodriguez |
-| Usuario | `uskein` |
-| Ubicacion | Colombia |
-| Rol | Full-Stack Developer |
-| Enfoque | Microservicios · Backend escalable · Apps hibridas |
+|:-----:|:-----:|
+| 👤 **Nombre** | Juan Sebastian Patino Rodriguez |
+| 🪪 **Usuario** | `uskein` |
+| 📍 **Ubicacion** | Colombia |
+| 🎯 **Rol** | Full-Stack Developer |
+| 🧠 **Enfoque** | Microservicios · Backend escalable · Apps hibridas |
 
-============================================
-> TECH_GRID · Stack Tecnologico
-============================================
+</div>
 
-[Backend]      .NET / C# / ASP.NET Core / REST APIs
-[Architecture] Microservicios / Ocelot Gateway / RabbitMQ
-[Data]         SQL Server / PostgreSQL / Entity Framework
-[Frontend]     React / Angular / TypeScript
-[Desktop]      Tauri / Rust / SQLite
-[DevOps]       Docker / Git / IIS / Azure DevOps
+---
 
-============================================
-> POKEBALL SYSTEM · Navegacion
-============================================
+## ⚔️ **TECH GRID**
 
-El portafolio cuenta con 3 Pokeballs que despliegan 5 secciones cada una:
+<div align="center">
 
-### Pokeball Roja (Principal)
+![Backend](https://img.shields.io/badge/Backend-.NET/C%23/ASP.NET-Core-512BD4?style=for-the-badge&logo=dotnet)
+![Architecture](https://img.shields.io/badge/Architecture-Microservicios/Ocelot-FF6B35?style=for-the-badge)
+![Data](https://img.shields.io/badge/Data-SQLServer/PostgreSQL-336791?style=for-the-badge&logo=postgresql)
+![Frontend](https://img.shields.io/badge/Frontend-React/Angular/TypeScript-61DAFB?style=for-the-badge&logo=react)
+![Desktop](https://img.shields.io/badge/Desktop-Tauri/Rust-FFC107?style=for-the-badge&logo=rust)
+![DevOps](https://img.shields.io/badge/DevOps-Docker/Git/IIS-2496ED?style=for-the-badge&logo=docker)
+
+</div>
+
+---
+
+## 🎮 **POKEBALL NAVIGATION SYSTEM**
+
+<div align="center">
+
+```
+        🔴 RED BALL          🔵 BLUE BALL         🟡 GOLD BALL
+       ┌─────────┐          ┌─────────┐          ┌─────────┐
+       │ ◉       │          │ ◉       │          │ ◉       │
+       │         │          │         │          │         │
+       │ ◉       │          │ ◉       │          │ ◉       │
+       └─────────┘          └─────────┘          └─────────┘
+           │                    │                    │
+           ▼                    ▼                    ▼
+      [MAIN MENU]         [BLUE SYSTEM]        [GOLD SYSTEM]
+```
+
+</div>
+
+### 🔴 **Pokeball Roja** — Main Menu
+
 | Ruta | Seccion | Descripcion |
-|---|---|---|
-| `/` | Home | Hero principal con perfil y presentacion |
-| `/skills` | Skills | Trainer Profile, Pokemon Cards (stats de habilidades) |
-| `/projects` | Projects | Mission Wheel Selector + lista de quests |
-| `/timeline` | Timeline | Filtros + year navigator + timeline vertical |
-| `/contact` | Contact | Pokedex expandida + Player Profile |
+|:----:|:-------:|:-----------:|
+| `/` | 🏠 **Home** | Hero principal con perfil y presentacion |
+| `/skills` | ⚔️ **Skills** | Trainer Profile + Pokemon Cards (stats de habilidades) |
+| `/projects` | 📋 **Projects** | Mission Wheel Selector + lista de quests |
+| `/timeline` | ⏱️ **Timeline** | Filtros + year navigator + timeline vertical |
+| `/contact` | 📞 **Contact** | Pokedex expandida + Player Profile |
 
-### Pokeball Azul (Blue System)
+### 🔵 **Pokeball Azul** — Blue System
+
 | Ruta | Seccion | Descripcion |
-|---|---|---|
-| `/achievements` | Achievements | Galeria de badges/logros (8Achievements, 61% completado) |
-| `/stats` | Stats | Dashboard de datos: actividad semanal, lenguajes, metricas |
-| `/inventory` | Inventory | Item Pocket: herramientas organizadas por categorias |
-| `/battle-log` | Battle Log | Combat Records: historial de victorias y XP total |
-| `/party` | Party | Team Roster: aliados (GitHub, Docker, PostgreSQL, etc.) |
+|:----:|:-------:|:-----------:|
+| `/achievements` | 🏆 **Achievements** | Galeria de badges/logros (8Achievements, 61% completado) |
+| `/stats` | 📊 **Stats** | Dashboard de datos: actividad semanal, lenguajes, metricas |
+| `/inventory` | 🎒 **Inventory** | Item Pocket: herramientas organizadas por categorias |
+| `/battle-log` | ⚔️ **Battle Log** | Combat Records: historial de victorias y XP total |
+| `/party` | 👥 **Party** | Team Roster: aliados (GitHub, Docker, PostgreSQL, etc.) |
 
-### Pokeball Dorada (Gold System)
+### 🟡 **Pokeball Dorada** — Gold System
+
 | Ruta | Seccion | Descripcion |
-|---|---|---|
-| `/pokedex` | Pokedex | Skill Encyclopedia: enciclopedia de habilidades con stats |
-| `/mini-games` | Mini Games | Game Corner: juego de memoria con pokemons |
-| `/sound` | Sound | Music Player: reproductor 8-bit con playlist |
-| `/settings` | Settings | Options Menu: tema, idioma, sonido, animaciones |
-| `/save-files` | Save Files | Data Management: slots de guardado para CV/portfolio |
+|:----:|:-------:|:-----------:|
+| `/pokedex` | 📖 **Pokedex** | Skill Encyclopedia: enciclopedia de habilidades con stats |
+| `/mini-games` | 🎮 **Mini Games** | Game Corner: juego de memoria con pokemons |
+| `/sound` | 🎵 **Sound** | Music Player: reproductor 8-bit con playlist |
+| `/settings` | ⚙️ **Settings** | Options Menu: tema, idioma, sonido, animaciones |
+| `/save-files` | 💾 **Save Files** | Data Management: slots de guardado para CV/portfolio |
 
-============================================
-> CORE MODULES (PROJECTS)
-============================================
+---
 
-1. [PLPDF] :: Biblioteca Imperial
-   - Status: COMPLETED
-   - Stack: Tauri + Rust + React + SQLite
-   - Features: PDF/EPUB Reader, Hierarchical Collections, Persistent Annotations, Voice Dictation.
+## 🏰 **CORE MODULES (PROJECTS)**
 
-2. [PLMP4] :: Video Library
-   - Status: COMPLETED
-   - Stack: Tauri + Rust + React + Zustand
-   - Features: Local Video Player, Auto-progress, Timeline Annotations, Exportable Notebooks.
+<details>
+<summary><b>📚 PLPDF :: Biblioteca Imperial</b></summary>
 
-3. [VOYNICH CODEX] :: World Builder
-   - Status: COMPLETED
-   - Stack: React + Express + PostgreSQL + Docker
-   - Features: World Building (Bestiary, Characters, Geography), Manuscript Management, Semantic Search, Kanban Board.
+```
+STATUS: ✅ COMPLETED
+STACK:  Tauri + Rust + React + SQLite
+```
 
-============================================
-> INSTALLATION SEQUENCE
-============================================
+| Feature | Description |
+|---------|-------------|
+| 📖 PDF/EPUB Reader | Lector de documentos integrado |
+| 📁 Hierarchical Collections | Organizacion jerarquica de contenido |
+| 📝 Persistent Annotations | Anotaciones persistentes |
+| 🎤 Voice Dictation | Dictado por voz |
 
-1. Clone the repository:
-   git clone https://github.com/uskein/portafolio.git
+</details>
 
-2. Navigate to the directory:
-   cd portafolio
+<details>
+<summary><b>🎬 PLMP4 :: Video Library</b></summary>
 
-3. Install dependencies:
-   npm install
+```
+STATUS: ✅ COMPLETED
+STACK:  Tauri + Rust + React + Zustand
+```
 
-4. Start the development server:
-   npm run dev
+| Feature | Description |
+|---------|-------------|
+| 🎥 Local Video Player | Reproductor de video local |
+| ⏩ Auto-progress | Progreso automatico |
+| 📊 Timeline Annotations | Anotaciones en linea de tiempo |
+| 📓 Exportable Notebooks | Cuadernos exportables |
 
-[!] **WARNING:** Ensure Node.js is installed before proceeding.
+</details>
 
-############################################
-# END TRANSMISSION                         #
-############################################
+<details>
+<summary><b>📜 VOYNICH CODEX :: World Builder</b></summary>
+
+```
+STATUS: ✅ COMPLETED
+STACK:  React + Express + PostgreSQL + Docker
+```
+
+| Feature | Description |
+|---------|-------------|
+| 🐉 Bestiary | Bestiario del mundo |
+| 👤 Characters | Sistema de personajes |
+| 🗺️ Geography | Geografia del mundo |
+| 📜 Manuscript Management | Gestion de manuscritos |
+| 🔍 Semantic Search | Busqueda semantica |
+| 📋 Kanban Board | Tablero Kanban |
+
+</details>
+
+---
+
+## 🚀 **INSTALLATION SEQUENCE**
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/uskein/portafolio.git
+
+# 2. Navigate to the directory
+cd portafolio
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
+
+> ⚠️ **WARNING:** Ensure Node.js is installed before proceeding.
+
+---
+
+## 📊 **PROJECT STATS**
+
+<div align="center">
+
+![Languages](https://img.shields.io/badge/Languages-TypeScript/JavaScript-F7DF1E?style=for-the-badge&logo=typescript)
+![Framework](https://img.shields.io/badge/Framework-React-61DAFB?style=for-the-badge&logo=react)
+![Build](https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite)
+![Styling](https://img.shields.io/badge/Styling-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
+![Animation](https://img.shields.io/badge/Animation-FramerMotion-FF0055?style=for-the-badge)
+
+</div>
+
+---
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║  [!] END TRANSMISSION                                        ║
+║  STATUS: ALL SYSTEMS OPERATIONAL                             ║
+║  POKEBALL SYSTEM: ACTIVE                                     ║
+║  8-BIT INTERFACE: LOADED                                     ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+![Visitors](https://api.visitorbadge.io/v1/dev?page=uskein&status=operational&count_color=%2337d67a&style=for-the-badge)
+
+**Made with ❤️ and 8-bit vibes**
+
+</div>
