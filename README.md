@@ -1,17 +1,8 @@
 <div align="center">
 
-```
-██╗   ██╗██╗  ██╗ █████╗ ███████╗██╗  ██╗██████╗  ██████╗  █████╗ ██████╗ ██████╗
-██║   ██║██║  ██║██╔══██╗██╔════╝██║  ██║██╔══██╗██╔═══██╗██╔══██╗██╔══██╗██╔══██╗
-██║   ██║███████║███████║███████╗███████║██████╔╝██║   ██║███████║██████╔╝██║  ██║
-╚██╗ ██╔╝██╔══██║██╔══██║╚════██║██╔══██║██╔══██╗██║   ██║██╔══██║██╔══██╗██║  ██║
- ╚████╔╝ ██║  ██║██║  ██║███████║██║  ██║██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝
-  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝
-```
-
 ![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-brightgreen?style=for-the-badge)
 ![Version](https://img.shields.io/badge/VERSION-2.0.0-blue?style=for-the-badge)
-![Pokemon](https://img.shields.io/badge/POKEMON-8--BIT-FF0000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVIN0wxMiAyeiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==)
+![Pokemon](https://img.shields.io/badge/POKEMON-8--BIT-FF0000?style=for-the-badge)
 
 **Full-Stack Developer | Microservices Architect | Hybrid Apps Specialist**
 
@@ -218,7 +209,7 @@ npm run dev
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
-![Visitors](https://api.visitorbadge.io/v1/dev?page=uskein&status=operational&count_color=%2337d67a&style=for-the-badge)
+![Visitors](https://komarev.github.io/ghbadge-counter/u/uskein/uskein?style=for-the-badge&label=VISITORS&color=37d67a)
 
 **Made with ❤️ and 8-bit vibes**
 
