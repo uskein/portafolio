@@ -3,13 +3,14 @@
 ![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-brightgreen?style=for-the-badge)
 ![Version](https://img.shields.io/badge/VERSION-2.0.0-blue?style=for-the-badge)
 ![Pokemon](https://img.shields.io/badge/POKEMON-8--BIT-FF0000?style=for-the-badge)
-[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-CLICK_HERE-00FF00?style=for-the-badge&logo=vercel)](https://uskein.github.io/portafolio/)
+
+# USKEIN DEVELOPER
 
 **Full-Stack Developer | Microservices Architect | Hybrid Apps Specialist**
 
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-00FF00?style=for-the-badge)](https://uskein.github.io/portafolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-uskein-181717?style=flat&logo=github)](https://github.com/uskein)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-juanse07-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/juanse07/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-uskein.dev-FF6B35?style=flat&logo=vercel)](https://uskein.dev)
 
 </div>
 

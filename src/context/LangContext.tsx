@@ -18,7 +18,7 @@ const translations = {
     "nav.contact": "CONTACT",
     // Hero
     "hero.subtitle": "[ Full-Stack Developer // Phantom Thief ]",
-    "hero.title": "USKEIN",
+    "hero.title": "USKEIN DEVELOPER",
     "hero.typewriter": "Full-Stack Developer // Phantom Thief",
     "hero.cta1": "⚔ Enter the Metaverse",
     "hero.cta2": "⚡ View Skills",
@@ -81,7 +81,7 @@ const translations = {
     "nav.contact": "CONTACTO",
     // Hero
     "hero.subtitle": "[ Desarrollador Full-Stack // Ladron Fantasma ]",
-    "hero.title": "USKEIN",
+    "hero.title": "USKEIN DEVELOPER",
     "hero.typewriter": "Desarrollador Full-Stack // Ladron Fantasma",
     "hero.cta1": "⚔ Entrar al MetaVerse",
     "hero.cta2": "⚡ Ver Habilidades",
