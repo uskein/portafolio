@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Share+Tech+Mono&display=swap');
+@import "tailwindcss";
+@import "./styles/animations.css";
+@import "./styles/fonts.css";
+
+@theme {
+  /* JRPG Final Fantasy palette */
+  --color-jrpg-black: #1a1a2e;
+  --color-jrpg-dark: #16213e;
+  --color-jrpg-blue: #0f3460;
+  --color-jrpg-navy: #1a1a3e;
+  --color-jrpg-red: #e94560;
+  --color-jrpg-gold: #f5c542;
+  --color-jrpg-white: #f8f9fa;
+  --color-jrpg-cream: #fffef2;
+  --color-jrpg-green: #4ecca3;
+  --color-jrpg-cyan: #00d2d3;
+  --color-jrpg-purple: #a855f7;
+
+  /* UI colors */
+  --color-bg: #f0f0e8;
+  --color-bg-alt: #e8e8dc;
+  --color-surface: #ffffff;
+  --color-text-primary: #1a1a2e;
+  --color-text-secondary: #4a4a5e;
+  --color-text-muted: #8a8a9e;
+  --color-border: #c8c8b8;
+  --color-accent: #e94560;
+  --color-accent-bg: #fce4ec;
+  --color-gold: #f5c542;
+  --color-gold-bg: #fff9e6;
+  --color-sky: #00d2d3;
+  --color-sky-bg: #e0fffe;
+  --color-purple: #a855f7;
+  --color-purple-bg: #f3e8ff;
+  --color-nature: #4ecca3;
+  --color-nature-bg: #e6fff8;
+  --color-combat: #e94560;
+  --color-combat-bg: #fce4ec;
+  --color-success: #10b981;
+
+  --font-pixel: "Press Start 2P", monospace;
+  --font-body: "VT323", "Share Tech Mono", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  image-rendering: pixelated;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  overflow-x: hidden;
+  min-height: 100vh;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+}
+
+::selection {
+  background-color: var(--color-jrpg-red);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+  border-left: 2px solid var(--color-border);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-jrpg-navy);
+  border: 2px solid var(--color-jrpg-blue);
+}

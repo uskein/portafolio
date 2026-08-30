@@ -1,0 +1,184 @@
+/* JRPG Menu Box Styles */
+.jrpg-box {
+  background: var(--color-surface);
+  border: 3px solid var(--color-jrpg-navy);
+  box-shadow:
+    inset 0 0 0 1px var(--color-jrpg-blue),
+    4px 4px 0 var(--color-jrpg-navy);
+  position: relative;
+  padding: 6px;
+}
+
+.jrpg-box::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border: 1px solid var(--color-jrpg-blue);
+  pointer-events: none;
+}
+
+.jrpg-box-gold {
+  background: linear-gradient(135deg, #fff9e6 0%, #ffffff 100%);
+  border: 3px solid var(--color-jrpg-gold);
+  box-shadow:
+    inset 0 0 0 1px #f5c542,
+    4px 4px 0 #c9a832;
+}
+
+.jrpg-box-gold::before {
+  border: 1px solid #f5c542;
+}
+
+.jrpg-box-red {
+  background: linear-gradient(135deg, #fce4ec 0%, #ffffff 100%);
+  border: 3px solid var(--color-jrpg-red);
+  box-shadow:
+    inset 0 0 0 1px #e94560,
+    4px 4px 0 #b83750;
+}
+
+.jrpg-box-red::before {
+  border: 1px solid #e94560;
+}
+
+.jrpg-box-green {
+  background: linear-gradient(135deg, #e6fff8 0%, #ffffff 100%);
+  border: 3px solid var(--color-jrpg-green);
+  box-shadow:
+    inset 0 0 0 1px #4ecca3,
+    4px 4px 0 #3da885;
+}
+
+.jrpg-box-green::before {
+  border: 1px solid #4ecca3;
+}
+
+.jrpg-box-cyan {
+  background: linear-gradient(135deg, #e0fffe 0%, #ffffff 100%);
+  border: 3px solid var(--color-jrpg-cyan);
+  box-shadow:
+    inset 0 0 0 1px #00d2d3,
+    4px 4px 0 #00a8a9;
+}
+
+.jrpg-box-cyan::before {
+  border: 1px solid #00d2d3;
+}
+
+.jrpg-box-purple {
+  background: linear-gradient(135deg, #f3e8ff 0%, #ffffff 100%);
+  border: 3px solid var(--color-jrpg-purple);
+  box-shadow:
+    inset 0 0 0 1px #a855f7,
+    4px 4px 0 #8444d6;
+}
+
+.jrpg-box-purple::before {
+  border: 1px solid #a855f7;
+}
+
+/* Pixel cursor blink */
+@keyframes blink-cursor {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Menu select flash */
+@keyframes menu-flash {
+  0%, 100% { background-color: var(--color-jrpg-gold); }
+  50% { background-color: var(--color-jrpg-red); }
+}
+
+/* Stat bar fill */
+@keyframes bar-fill {
+  from { width: 0%; }
+}
+
+/* Float animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-5px) rotate(1deg); }
+}
+
+/* Pulse */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(233, 69, 96, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(233, 69, 96, 0.6), 0 0 40px rgba(233, 69, 96, 0.2);
+  }
+}
+
+/* Text reveal */
+@keyframes text-reveal {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 0% 0 0); }
+}
+
+/* Shake */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-3px); }
+  20%, 40%, 60%, 80% { transform: translateX(3px); }
+}
+
+/* Scanlines */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Utility classes */
+.animate-blink { animation: blink-cursor 1s step-end infinite; }
+.animate-float { animation: float 3s ease-in-out infinite; }
+.animate-float-slow { animation: float-slow 4s ease-in-out infinite; }
+.animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+.animate-bar-fill { animation: bar-fill 1.5s ease-out forwards; }
+.animate-text-reveal { animation: text-reveal 0.5s steps(20) forwards; }
+
+/* Grid background */
+.pixel-grid-bg {
+  background-image:
+    linear-gradient(rgba(200, 200, 184, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(200, 200, 184, 0.3) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Scanline overlay */
+.scanline-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.02) 2px,
+    rgba(0, 0, 0, 0.02) 4px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Diagonal lines */
+.diagonal-lines-bg {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 28px,
+    rgba(233, 69, 96, 0.03) 28px,
+    rgba(233, 69, 96, 0.03) 30px
+  );
+  animation: diagonal-lines 4s linear infinite;
+}
+
+@keyframes diagonal-lines {
+  0% { background-position: 0 0; }
+  100% { background-position: 60px 60px; }
+}
